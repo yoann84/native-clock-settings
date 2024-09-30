@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "native-clock-settings": ["../src/index"],
+      "native-clock-settings/*": ["../src/*"]
+    }
+  }
+}
